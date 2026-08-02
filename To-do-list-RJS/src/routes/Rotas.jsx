@@ -2,6 +2,8 @@ import { Routes, Route } from "react-router-dom";
 import Home from "../pages/Home";
 import Tasks from "./../pages/Tasks";
 import Task from "../pages/Task";
+import NewTask from './../pages/NewTask';
+
 export default function Rotas() {
   return (
     <Routes>
@@ -11,6 +13,10 @@ export default function Rotas() {
       <Route
         path="*"
         element={<h1>Erro 404, Página não encontrada.</h1>}
+      ></Route>
+      <Route
+        path="/newtask"
+        element={<NewTask/>}
       ></Route>
     </Routes>
   );

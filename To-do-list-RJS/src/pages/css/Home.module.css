@@ -1,0 +1,25 @@
+.main_msg {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.main_msg h2 {
+    font-size: 2.5rem;
+}
+
+.main_msg h2 span {
+    color: var(--primary);
+}
+
+.main_msg p {
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+.main_msg a{
+    margin-top: 30px;
+}
