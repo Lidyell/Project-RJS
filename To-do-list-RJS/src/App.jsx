@@ -12,7 +12,6 @@ export default function App() {
         <main className={styles.main}>
           <Rotas />
         </main>
-
         <FooterTDL />
       </div>
     </BrowserRouter>
