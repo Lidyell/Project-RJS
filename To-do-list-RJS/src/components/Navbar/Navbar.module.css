@@ -1,0 +1,88 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: var(--surface);
+  padding: 20px;
+  margin-bottom: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.header {
+  margin-left: 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  transition: color 0.3s ease;
+}
+
+.logo,
+.logo span,
+.logo .icon {
+  transition: color 0.3s ease;
+}
+
+.logo:hover,
+.logo:hover span,
+.logo:hover .icon {
+  color: var(--surface-hover);
+  cursor: pointer;
+}
+
+.logo .icon {
+  margin-right: 12px;
+  color: var(--primary);
+}
+
+.logo span {
+  color: var(--primary);
+  margin-left: 8px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  list-style: none;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  padding: 10px 16px;
+  border-radius: 8px;
+
+  background-color: var(--primary);
+  color: white;
+  text-decoration: none;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+  box-shadow: 2px 3px 4px black;
+}
+
+.link:hover {
+  background-color: var(--surface-hover);
+}
+
+.icon_btn {
+  font-size: 18px;
+}
+
+.active {
+  border: 2px solid white;
+}

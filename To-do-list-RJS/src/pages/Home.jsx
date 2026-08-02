@@ -1,7 +1,8 @@
-export default function Home(){
-    return(
-        <>
-        <h1>Tela Home</h1>
-        </>
-    )
+import LinkButton from "../components/Form/LinkButton";
+import Button from "./../components/Form/Button";
+export default function Home() {
+  return (
+    <>
+    </>
+  );
 }

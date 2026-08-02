@@ -1,0 +1,6 @@
+.main {
+  min-height: calc(100vh - 80px - 220px);
+  margin-top: 80px;
+  padding: 2rem 3rem;
+  background-color: var(--background);
+}

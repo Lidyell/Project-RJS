@@ -1,9 +1,20 @@
-import { useState } from 'react'
+import { BrowserRouter } from "react-router-dom";
+import Rotas from "./routes/Rotas";
+import Navbar from "./components/Navbar/Navbar";
+import FooterTDL from "./components/Footer/FooterTDL";
+import styles from './App.module.css'
+export default function App() {
+  return (
+    <BrowserRouter>
+      <div className={styles.app}>
+        <Navbar />
 
+        <main className={styles.main}>
+          <Rotas />
+        </main>
 
-export default function App(){
-  return(
-    <h1>inicio</h1>
-  )
+        <FooterTDL />
+      </div>
+    </BrowserRouter>
+  );
 }
-
