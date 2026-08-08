@@ -1,0 +1,16 @@
+.tasks {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.section h2 {
+  margin-bottom: 1.5rem;
+  color: var(--text);
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.5rem;
+}
