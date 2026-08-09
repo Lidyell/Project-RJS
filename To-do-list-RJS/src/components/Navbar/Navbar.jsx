@@ -12,23 +12,25 @@ export default function Navbar() {
   return (
     <nav className={styles.navbar}>
       <div className={styles.header}>
-        <h1 className={styles.logo}>
-          <TfiAgenda className={styles.icon} size={28}/>
-          To do <span>List</span>
-        </h1>
+        <NavLink to="/">
+          <h1 className={styles.logo}>
+            <TfiAgenda className={styles.icon} size={28} />
+            To do <span>List</span>
+          </h1>
+        </NavLink>
       </div>
 
       <ul className={styles.menu}>
         <li>
           <NavLink to="/" className={ActiveHoverPage}>
-            <FaHome size={20} className={styles.icon_btn}/>
+            <FaHome size={20} className={styles.icon_btn} />
             <span>Home</span>
           </NavLink>
         </li>
 
         <li>
           <NavLink to="/tasks" className={ActiveHoverPage}>
-            <CgCheckR size={20} className={styles.icon_btn}/>
+            <CgCheckR size={20} className={styles.icon_btn} />
             <span>Minhas tarefas</span>
           </NavLink>
         </li>

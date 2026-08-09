@@ -6,7 +6,7 @@ export default function TaskCard({ task, onComplete, onDelete }) {
       <div className={styles.taskInfo}>
         <h3>{task.title}</h3>
 
-        <span className={styles.type}>
+        <span className={styles[task.type]}>
           {task.type}
         </span>
 

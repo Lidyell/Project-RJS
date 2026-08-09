@@ -24,15 +24,51 @@
   margin-bottom: .8rem;
 }
 
-.type {
+.Escola {
   width: fit-content;
 
   padding: .3rem .8rem;
 
   border-radius: 999px;
 
-  background: rgba(90,109,247,.15);
-  color: var(--primary);
+  background: rgba(0, 255, 68, 0.15);
+  color: white;
+
+  font-size: .8rem;
+}
+.Trabalho {
+  width: fit-content;
+
+  padding: .3rem .8rem;
+
+  border-radius: 999px;
+
+  background: rgba(28, 6, 232, 0.15);
+  color: white;
+
+  font-size: .8rem;
+}
+.Casa {
+  width: fit-content;
+
+  padding: .3rem .8rem;
+
+  border-radius: 999px;
+
+  background: rgba(242, 255, 1, 0.592);
+  color: white;
+
+  font-size: .8rem;
+}
+.Outros {
+  width: fit-content;
+
+  padding: .3rem .8rem;
+
+  border-radius: 999px;
+
+  background: rgba(220, 113, 5, 0.459);
+  color: white;
 
   font-size: .8rem;
 }
@@ -67,7 +103,7 @@
     background-color: red;
     padding: 10px;
     border-radius: 20px;
-    transition: color 0.5s;
+    transition: color 0.5s ease-in;
 
 }
 .btn_excluir:hover{
