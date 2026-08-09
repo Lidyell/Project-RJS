@@ -1,6 +1,6 @@
 import styles from "./TaskCard.module.css"
 
-export default function TaskCard({ task, onComplete }) {
+export default function TaskCard({ task, onComplete, onDelete }) {
   return (
     <div className={styles.taskCard}>
       <div className={styles.taskInfo}>
@@ -19,6 +19,12 @@ export default function TaskCard({ task, onComplete }) {
           onClick={() => onComplete(task.id)}
         >
           {task.completed ? "Concluída" : "Concluir"}
+        </button>
+        <button
+          className={styles.btn_excluir}
+          onClick={() => onDelete(task.id)}
+        >
+          Excluir
         </button>
       </div>
     </div>

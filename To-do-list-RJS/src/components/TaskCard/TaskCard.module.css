@@ -62,3 +62,14 @@
 .btn_concluir:hover{
     background-color: #72cf5f;
 }
+.btn_excluir{
+    color: white;
+    background-color: red;
+    padding: 10px;
+    border-radius: 20px;
+    transition: color 0.5s;
+
+}
+.btn_excluir:hover{
+    background-color: rgb(75, 19, 19);
+}
