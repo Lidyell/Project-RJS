@@ -87,3 +87,19 @@
 .active {
   border: 2px solid white;
 }
+
+@media (min-width: 310px ) and (max-width: 740px){
+  .navbar{
+    display: block
+  }
+  .logo{
+    display: flex;
+    justify-content: center;
+    margin-right: 30px;
+    margin-bottom: 20px;
+  }
+  .menu{
+    display: flex;
+    flex-direction: column;
+  }
+}

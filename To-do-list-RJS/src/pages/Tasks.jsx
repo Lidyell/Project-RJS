@@ -10,19 +10,24 @@ export default function Tasks() {
       const response = await fetch("http://localhost:5000/tasks", {
         method: "GET",
       });
-      const dados = await response.json();
-
-      setTasks(dados);
+      if (response.ok) {
+        const dados = await response.json(); 
+        setTasks(dados);
+      }
+  
     } catch (err) {
       console.log(err);
     }
   };
+
   useEffect(() => {
-    const chamarfunctions = async () => {
+
+    const AsyncFunctions = async () => {
       await buscarTasks();
     };
-    chamarfunctions();
+    AsyncFunctions();
   }, []);
+
   const onCompleteTask = async (id) => {
     try {
       await fetch(`http://localhost:5000/tasks/${id}`, {
@@ -44,7 +49,7 @@ export default function Tasks() {
       await fetch(`http://localhost:5000/tasks/${id}`, {
         method: "DELETE",
       });
-      alert("Tarefa apagada com sucesso")
+      alert("Tarefa apagada com sucesso");
       buscarTasks();
     } catch (err) {
       console.log(err);

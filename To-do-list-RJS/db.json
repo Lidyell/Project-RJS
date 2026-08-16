@@ -8,13 +8,6 @@
       "id": "XGExxO0p5Tw"
     },
     {
-      "completed": true,
-      "title": "Estudar Programação",
-      "description": "Java, SpringBoot",
-      "type": "Escola",
-      "id": "V6wbXsVwp2I"
-    },
-    {
       "completed": false,
       "title": "Lavar os pratos",
       "description": "Urgente",
@@ -30,10 +23,10 @@
     },
     {
       "completed": true,
-      "title": "Fazer a Dashboard",
-      "description": "Prazo: 13/08",
+      "title": "Tarefas",
+      "description": "comer",
       "type": "Trabalho",
-      "id": "vhl2Qjo3n7Q"
+      "id": "KpcINL_vZjk"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

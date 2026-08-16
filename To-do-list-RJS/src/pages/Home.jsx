@@ -7,11 +7,9 @@ export default function Home() {
       <h2>
         Bem vindo ao To do <span>List</span>
       </h2>
-
       <p>
         Anote suas tarefas para não esquecê-las!
       </p>
-      
       <LinkButton titlebtn="Criar nova tarefa" to="/newtask"/>
     </div>
   );
