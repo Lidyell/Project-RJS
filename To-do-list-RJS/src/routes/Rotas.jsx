@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import Home from "../pages/Home";
 import Tasks from "./../pages/Tasks";
 import NewTask from './../pages/NewTask';
+import Login from "../components/Cadastro/Login";
 
 export default function Rotas() {
   return (
@@ -16,6 +17,7 @@ export default function Rotas() {
         path="/newtask"
         element={<NewTask/>}
       ></Route>
+      <Route path="/login" element={<Login/>}></Route>
     </Routes>
   );
 }

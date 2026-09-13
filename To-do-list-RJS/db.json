@@ -29,5 +29,55 @@
       "id": "KpcINL_vZjk"
     }
   ],
+  "login": [
+    {
+      "name": "teste",
+      "email": "teste@gmail.com",
+      "senha": "teste",
+      "id": "0cLaC919aUI"
+    },
+    {
+      "name": "teste",
+      "email": "teste@gmail.com",
+      "senha": "teste",
+      "id": "kFylBmJ9c8Q"
+    },
+    {
+      "name": "teste",
+      "email": "teste@gmail.com",
+      "senha": "teste",
+      "id": "S8cdoLrnZEM"
+    },
+    {
+      "name": "teste",
+      "email": "teste",
+      "senha": "teste",
+      "id": "JQf3GxhYYng"
+    },
+    {
+      "name": "testando localstorage",
+      "email": "teste",
+      "senha": "teste",
+      "id": "CFFzon834zY"
+    },
+    {
+      "name": "",
+      "email": "",
+      "senha": "",
+      "id": "MbbBdxc1nI4"
+    },
+    {
+      "name": "",
+      "email": "",
+      "senha": "",
+      "id": "pRPFpfPL1SU"
+    },
+    {
+      "name": "teste",
+      "email": "teste@gmail.com",
+      "senha": "teste",
+      "id": "jShPkFxTGNA"
+    }
+  ],
   "$schema": "./node_modules/json-server/schema.json"
 }

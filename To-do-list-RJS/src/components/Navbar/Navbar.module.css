@@ -88,17 +88,34 @@
   border: 2px solid white;
 }
 
-@media (min-width: 310px ) and (max-width: 740px){
-  .navbar{
-    display: block
+.name_user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  padding: 10px 16px;
+  border-radius: 8px;
+
+  color: white;
+  text-decoration: none;
+}
+.name_user .icon_btn {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+@media (min-width: 310px) and (max-width: 740px) {
+  .navbar {
+    display: block;
   }
-  .logo{
+  .logo {
     display: flex;
     justify-content: center;
-    margin-right: 30px;
+    margin-right: 40px;
     margin-bottom: 20px;
   }
-  .menu{
+  .menu {
     display: flex;
     flex-direction: column;
   }
